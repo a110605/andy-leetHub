@@ -4,9 +4,9 @@
  * @return {number}
  */
 var minSubArrayLen = function(target, nums) {
-    if(nums.find(num => num >= target)){
-        return 1;
-    }
+    // if(nums.find(num => num >= target)){
+    //     return 1;
+    // }
     let minLength = Infinity;
     let l = 0; 
     let sum = 0;
